@@ -74,3 +74,7 @@ This project demonstrates how Python, SQL, and Power BI can be used together to 
 #### 👨‍💻 Author
 
 [Sanika Chavan]
+
+## 🙏 Thank You for visiting my project!
+
+If you find this project useful, don't forget to ⭐ Star the repository.
