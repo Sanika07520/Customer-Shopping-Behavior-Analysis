@@ -1,4 +1,11 @@
 #### 🛍️ Customer Shopping Behavior Analysis
+## 📊 Power BI Dashboard
+
+![Customer Behavior Dashboard](dashboard_preview.png)
+
+The Power BI dashboard presents:
+* Revenue KPIs
+* Product and category performance
 
 #### 📌 Project Overview
 
@@ -17,11 +24,11 @@ The analysis helps businesses understand customer behavior and make data-driven 
 
 #### 🛠️ Technologies Used
 
-* **Python** – Data cleaning and preprocessing
+* **Python** – Data cleaning, preprocessing, K-Means Clustering & Statistical T-Test.
 * **Pandas** – Data manipulation and analysis
 * **Jupyter Notebook** – Data analysis
 * **PostgreSQL** – Database management
-* **SQL** – Business data analysis
+* **SQL** – Business data analysis (CTEs, Window Function - DENSE_RANK, SUM OVER)
 * **Power BI** – Interactive dashboard visualization
 
 #### 📂 Project Workflow
@@ -72,8 +79,7 @@ The Power BI dashboard presents:
 This project demonstrates how Python, SQL, and Power BI can be used together to analyze customer shopping behavior and generate meaningful business insights. It provides practical experience in data cleaning, data analysis, SQL querying, data visualization, and business intelligence. 
 
 #### 👨‍💻 Author
-
-[Sanika Chavan]
+Sanika Chavan
 
 ## 🙏 Thank You for visiting my project!
 
