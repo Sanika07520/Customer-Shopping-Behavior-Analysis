@@ -49,6 +49,8 @@ The analysis helps businesses understand customer behavior and make data-driven 
 
 #### 📊 Power BI Dashboard
 
+<img width="1273" height="715" alt="image" src="https://github.com/user-attachments/assets/cdf43a4c-69b4-40be-a9ff-7ec942491af0" />
+
 The Power BI dashboard presents: 
 
 * Revenue KPIs
@@ -70,11 +72,6 @@ The Power BI dashboard presents:
 #### 🚀 Conclusion
 
 This project demonstrates how Python, SQL, and Power BI can be used together to analyze customer shopping behavior and generate meaningful business insights. It provides practical experience in data cleaning, data analysis, SQL querying, data visualization, and business intelligence. 
-
-## 📊 Power BI Dashboard
-
-![Customer Behavior Dashboard]
-<img width="1273" height="715" alt="image" src="https://github.com/user-attachments/assets/cdf43a4c-69b4-40be-a9ff-7ec942491af0" />
 
 #### 👨‍💻 Author
 Sanika Chavan
