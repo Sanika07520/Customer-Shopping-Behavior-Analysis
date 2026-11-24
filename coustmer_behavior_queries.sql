@@ -86,3 +86,55 @@ SELECT
 FROM customer
 GROUP BY age_group
 ORDER BY total_revenue desc;
+
+-- ==========================================================
+-- ADVANCED SQL QUERIES (CTE & WINDOW FUNCTIONS)
+-- ==========================================================
+
+-- Q11. What are the top 3 revenue-generating products within each category? (CTE + DENSE_RANK)
+WITH ProductRanking AS (
+    SELECT 
+        category,
+        item_purchased,
+        COUNT(*) AS total_orders,
+        SUM(purchase_amount) AS total_revenue,
+        DENSE_RANK() OVER(PARTITION BY category ORDER BY SUM(purchase_amount) DESC) AS rank_num
+    FROM customer
+    GROUP BY category, item_purchased
+)
+SELECT category, item_purchased, total_orders, total_revenue
+FROM ProductRanking
+WHERE rank_num <= 3;
+
+
+-- Q12. What is the percentage contribution of each age group to total revenue? (Window Function)
+SELECT 
+    age_group,
+    COUNT(customer_id) AS total_customers,
+    SUM(purchase_amount) AS category_revenue,
+    ROUND(SUM(purchase_amount) * 100.0 / SUM(SUM(purchase_amount)) OVER(), 2) AS revenue_percentage
+FROM customer
+GROUP BY age_group
+ORDER BY category_revenue DESC;
+
+
+-- Q13. Segment customers into VIP Loyal, Regular, and New/Occasional tiers based on previous purchases (CTE + CASE)
+WITH CustomerSegments AS (
+    SELECT 
+        customer_id,
+        previous_purchases,
+        purchase_amount,
+        CASE 
+            WHEN previous_purchases >= 30 THEN 'VIP Loyal'
+            WHEN previous_purchases BETWEEN 10 AND 29 THEN 'Regular'
+            ELSE 'New / Occasional'
+        END AS customer_tier
+    FROM customer
+)
+SELECT 
+    customer_tier,
+    COUNT(*) AS customer_count,
+    ROUND(AVG(purchase_amount), 2) AS avg_spend
+FROM CustomerSegments
+GROUP BY customer_tier
+ORDER BY customer_count DESC;
