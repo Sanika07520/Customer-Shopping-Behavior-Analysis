@@ -73,10 +73,9 @@ This project demonstrates how Python, SQL, and Power BI can be used together to 
 
 ## 📊 Power BI Dashboard
 
-![Customer Behavior Dashboard](<img width="997" height="557" alt="Screenshot 2026-11-20 183223" src="https://github.com/user-attachments/assets/e11a9ecd-12c7-492d-8f25-756b722a82bc" />
-)
+![Customer Behavior Dashboard]
+<img width="1273" height="715" alt="image" src="https://github.com/user-attachments/assets/cdf43a4c-69b4-40be-a9ff-7ec942491af0" />
 
-  
 #### 👨‍💻 Author
 Sanika Chavan
 
