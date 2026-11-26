@@ -49,7 +49,7 @@ The analysis helps businesses understand customer behavior and make data-driven 
 
 #### 📊 Power BI Dashboard
 
-<img width="1392" height="785" alt="Screenshot 2026-11-26 140750" src="https://github.com/user-attachments/assets/30bc637f-106c-4986-ad42-3fc03f1719dc" />
+[<img width="1392" height="785" alt="Screenshot 2026-11-26 140750" src="https://github.com/user-attachments/assets/30bc637f-106c-4986-ad42-3fc03f1719dc" />](https://github.com/Sanika07520/Customer-Shopping-Behavior-Analysis/blob/main/dashboard_preview.png)
 
 
 The Power BI dashboard presents: 
