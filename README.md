@@ -49,7 +49,8 @@ The analysis helps businesses understand customer behavior and make data-driven 
 
 #### 📊 Power BI Dashboard
 
-![Uploading dashboard_preview.png…]()
+<img width="1392" height="785" alt="Screenshot 2026-11-26 140750" src="https://github.com/user-attachments/assets/30bc637f-106c-4986-ad42-3fc03f1719dc" />
+
 
 The Power BI dashboard presents: 
 
